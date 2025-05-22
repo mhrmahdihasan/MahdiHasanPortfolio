@@ -24,7 +24,7 @@ const IndexParticles = () => {
           <ParticlesBackground />
           <div className="container">
             <div className="row full-screen align-items-center">
-              <div className="col-lg-6">
+              <div className="col-lg-6 order-2 order-lg-1">
                 <div className="type-box">
                   <h6>Hello, I am</h6>
                   <h1 className="font-alt">Mahdi Hasan</h1>
@@ -41,9 +41,9 @@ const IndexParticles = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 order-1 order-lg-2">
                 <div className="hb-img">
-                  <Image src="/images/profile-hero-section.png" className="banner-right-img" width={500} height={500} title="Mahdi Hasan-IT Engineer" alt="IT Engineer And Digital Business & Marketing Specialist" />
+                  <Image src="/images/profile-hero-section.png" layout="responsive" className="banner-right-img" width={500} height={500} title="Mahdi Hasan-IT Engineer" alt="IT Engineer And Digital Business & Marketing Specialist" />
                 </div>
               </div>
             </div>

@@ -224,10 +224,8 @@ mark {
   top: -85%;
   left:0px;
   z-index: -1;
-  /* border-radius: 0 0 50% 50%; */
-  width: 100%;
+  width: 100% !important;
   height: 350px;
-  /* background: #002faf; */
   background-image: url("../../images/banner.png");
   background-repeat: no-repeat;
   background-position: center;

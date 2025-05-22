@@ -75,7 +75,7 @@ iframe {
 
 .header-left .hl-top:after {
   content: "";
-  width: 310px;
+  width: 100%;
   height: 310px;
 }
 .header-left .hl-top h5 {

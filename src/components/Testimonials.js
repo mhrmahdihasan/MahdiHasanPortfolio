@@ -35,7 +35,7 @@ const Testimonials = () => {
       <Swiper {...props}>
         <SwiperSlide className="testimonial-01 media">
           <div className="avatar">
-            <Image  width={150} height={150}  src="/images/client-profile.png" title="" alt="" />
+            <Image  width={150} height={150}  src="/images/indeed.png" className="rounded-circle" layout="responsive" title="" alt="" />
           </div>
           <div className="media-body">
             <p>
@@ -47,7 +47,7 @@ const Testimonials = () => {
         </SwiperSlide>
         <SwiperSlide className="testimonial-01 media">
           <div className="avatar">
-            {/* <Image className="testimonial-profile"  src="/img/client-profile.png" title="" alt="" /> */}
+            <Image  width={150} height={150}  src="/images/freepik.png" className="rounded-circle" layout="responsive" title="" alt="" />
           </div>
           <div className="media-body">
             <p>
@@ -59,7 +59,7 @@ const Testimonials = () => {
         </SwiperSlide>
         <SwiperSlide className="testimonial-01 media">
           <div className="avatar">
-            {/* <Image className="testimonial-profile" src="/img/client-profile.png" title="" alt="" /> */}
+            <Image  width={150} height={150}  src="/images/bellmedia.png" className="rounded-circle" layout="responsive" title="" alt="" />
           </div>
           <div className="media-body">
             <p>
@@ -72,7 +72,7 @@ const Testimonials = () => {
         </SwiperSlide>
         <SwiperSlide className="testimonial-01 media">
           <div className="avatar">
-            {/* <Image className="testimonial-profile" src="/img/client-profile.png" title="" alt="" /> */}
+            <Image  width={150} height={150}  src="/images/nord.png" className="rounded-circle" layout="responsive" title="" alt="" />
           </div>
           <div className="media-body">
             <p>
@@ -84,7 +84,7 @@ const Testimonials = () => {
         </SwiperSlide>
         <SwiperSlide className="testimonial-01 media">
           <div className="avatar">
-            {/* <Image className="testimonial-profile" src="/img/client-profile.png" title="" alt="" /> */}
+            <Image  width={150} height={150}  src="/images/autosuggest.png" className="rounded-circle" layout="responsive" title="" alt="" />
           </div>
           <div className="media-body">
             <p>
@@ -96,7 +96,7 @@ const Testimonials = () => {
         </SwiperSlide>
         <SwiperSlide className="testimonial-01 media">
           <div className="avatar">
-            {/* <Image className="testimonial-profile" src="/img/client-profile.png" title="" alt="" /> */}
+            <Image  width={150} height={150}  src="/images/biotix-care.png" className="rounded-circle" layout="responsive" title="" alt="" />
           </div>
           <div className="media-body">
             <p>
@@ -108,7 +108,7 @@ const Testimonials = () => {
         </SwiperSlide>
         <SwiperSlide className="testimonial-01 media">
           <div className="avatar">
-            {/* <Image className="testimonial-profile" src="/img/client-profile.png" title="" alt="" /> */}
+            <Image  width={150} height={150}  src="/images/hochneun.png" className="rounded-circle" layout="responsive" title="" alt="" />
           </div>
           <div className="media-body">
             <p>
@@ -120,7 +120,7 @@ const Testimonials = () => {
         </SwiperSlide>
         <SwiperSlide className="testimonial-01 media">
           <div className="avatar">
-            {/* <Image className="testimonial-profile" src="/img/client-profile.png" title="" alt="" /> */}
+            <Image  width={150} height={150}  src="/images/stox.png" className="rounded-circle" layout="responsive" title="" alt="" />
           </div>
           <div className="media-body">
             <p>

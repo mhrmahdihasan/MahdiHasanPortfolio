@@ -2,15 +2,14 @@ import dynamic from "next/dynamic";
 import About from "../src/components/About";
 import Contact from "../src/components/Contact";
 import ParticlesBackground from "../src/components/ParticlesBackground";
-import Services from "../src/components/Services";
 import Layout from "../src/layout/Layout";
 import Link from "next/link";
 import Footer from "../src/components/Footer";
 import Image from 'next/image';
-const Portfolio = dynamic(() => import("../src/components/Portfolio"), {
-  ssr: false,
-});
+import Services from "../src/components/Services";
+import SocialShareButtons from "../src/components/SocialShareButtons";
 const IndexParticles = () => {
+
   return (
     <Layout>
       <section
@@ -26,13 +25,13 @@ const IndexParticles = () => {
             <div className="row full-screen align-items-center">
               <div className="col-lg-6 order-2 order-lg-1">
                 <div className="type-box">
-                  <h6>Hello, I am</h6>
+                  <h6>Hello, I&apos;m</h6>
                   <h1 className="font-alt">Mahdi Hasan</h1>
                   <p className="lead">
                     IT Engineer And Digital Business & Marketing Specialist <span id="type-it" />
                   </p>
                   <p className="desc">
-                    Digital Marketer & Business Consultant passionate about growth, strategy, and helping businesses scale through proven online marketing techniques. Founder of Mhr Tech, driven by creativity, leadership, and lifelong learning.
+                    Committed to growing your business through strategic planning and effective online marketing. Passionate about business development, digital strategy, and delivering real results. Driven by creativity, leadership, and a mindset of continuous improvement. Your success is my mission.
                   </p>
                   <div className="btn-bar">
                     <Link href="#" className="px-btn px-btn-theme">
@@ -54,15 +53,12 @@ const IndexParticles = () => {
       {/* about us */}
       <About />
       {/* End about us */}
-      {/* Services */}
-      <Services />
-      {/* End Services */}
-      {/* Portfolio */}
-      <Portfolio />
-      {/* End Portfolio */}
+      {/* Inside this services have testimonial  */}
+      <Services/>
       {/* Contact us */}
       <Contact />
       {/* Footer  */}
+      <SocialShareButtons />
       <Footer/>
     </Layout>
   );

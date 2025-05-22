@@ -53,7 +53,7 @@ useEffect(() => {
           <div className="hl-top">
             <div className="hl-logo">
               <div className="img">
-                <Image style={{ objectFit: 'cover' }} width={100} height={100} src="/images/profile.jpg" title="" alt="" />
+                <Image style={{ objectFit: 'cover' }} width={100} height={100} src="/images/profile.png" title="" alt="" />
               </div>
               <h5>Mahdi Hasan</h5>
             </div>
@@ -91,38 +91,31 @@ const MenuWithOutBlog = () => {
     <ul className="nav nav-menu" id="pp-menu">
       <li data-menuanchor="profile" >
         <Link className="nav-link" href="#profile">
-          <RiAccountCircleLine className="menu-icon"/>
+          {/* <RiAccountCircleLine className="menu-icon"/> */}
           <span>Profile</span>
         </Link>
       </li>
       <li data-menuanchor="about">
         <Link className="nav-link" href="#about">
-          < BsInfoSquare className="menu-icon"/>
+          {/* < BsInfoSquare className="menu-icon"/> */}
           <span>About Me</span>
         </Link>
       </li>
-      <li data-menuanchor="education">
-        <Link className="nav-link" href="#education">
-          <BiSolidBookOpen className="menu-icon"/>
-          <span>Education</span>
+      <li data-menuanchor="skills">
+        <Link className="nav-link" href="#skills">
+          {/* <BiSolidBookOpen className="menu-icon"/> */}
+          <span>Skills & Training </span>
         </Link>
       </li>
       <li data-menuanchor="work">
         <Link className="nav-link" href="#experience">
-          <HiOutlineBadgeCheck className="menu-icon" />
+          {/* <HiOutlineBadgeCheck className="menu-icon" /> */}
           <span>Experience</span>
         </Link>
-      </li>
-      <li data-menuanchor="contactus">
-        <Link className="nav-link" href="#services">
-          <LuComponent className="menu-icon"/>
-          <span>Services</span>
-        </Link>
-      </li>
-      
+      </li>      
       <li data-menuanchor="contactus">
         <Link className="nav-link" href="#contactinfo">
-          <MdContacts  className="menu-icon"/>
+          {/* <MdContacts  className="menu-icon"/> */}
           <span>Contact Info</span>
         </Link>
       </li>

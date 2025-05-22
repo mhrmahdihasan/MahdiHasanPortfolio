@@ -3,22 +3,18 @@ export const activeSection = () => {
     const sections = document.querySelectorAll(".pp-section");
     const navLinks = document.querySelectorAll(".nav-menu li");
 
-    let currentSectionId = "";
-
+    let currentId = "";
     sections.forEach((section) => {
       const rect = section.getBoundingClientRect();
-      if (rect.top <= window.innerHeight / 2 && rect.bottom >= 0) {
-        currentSectionId = section.getAttribute("id");
+      if (rect.top <= window.innerHeight / 2 && rect.bottom > 0) {
+        currentId = section.getAttribute("id");
       }
     });
 
     navLinks.forEach((li) => {
       const anchor = li.querySelector("a");
-      if (!anchor) return;
-
-      const href = anchor.getAttribute("href");
-
-      if (href === `#${currentSectionId}`) {
+      const href = anchor?.getAttribute("href");
+      if (href === `#${currentId}`) {
         li.classList.add("active");
       } else {
         li.classList.remove("active");
@@ -26,17 +22,11 @@ export const activeSection = () => {
     });
   };
 
-  // Initial trigger
   updateActiveLink();
-
-  // Scroll listener
   window.addEventListener("scroll", updateActiveLink);
-
-  // Cleanup if needed
-  return () => {
-    window.removeEventListener("scroll", updateActiveLink);
-  };
+  return () => window.removeEventListener("scroll", updateActiveLink);
 };
+
 
 // Pagination
 export const getPagination = (totalNumber, sort) => {

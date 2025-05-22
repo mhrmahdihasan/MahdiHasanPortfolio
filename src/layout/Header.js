@@ -13,11 +13,16 @@ import { MdContacts } from "react-icons/md";
 import Image from 'next/image';
 const Header = ({ blog }) => {
   const [sideBarToggle, setSideBarToggle] = useState(false);
-  useEffect(() => {
+useEffect(() => {
+  let cleanup;
   if (!blog) {
-    activeSection();
+    cleanup = activeSection();
   }
-}, [blog]); 
+  return () => {
+    if (cleanup) cleanup();
+  };
+}, [blog]);
+
   return (
     <Fragment>
       <div className="mob-header">
@@ -84,7 +89,7 @@ export default Header;
 const MenuWithOutBlog = () => {
   return (
     <ul className="nav nav-menu" id="pp-menu">
-      <li data-menuanchor="profile" className="active">
+      <li data-menuanchor="profile" >
         <Link className="nav-link" href="#profile">
           <RiAccountCircleLine className="menu-icon"/>
           <span>Profile</span>

@@ -296,7 +296,7 @@ mark {
 }
 @media (min-width: 768px) {
   .header-left .nav-menu li .nav-link:hover {
-    color: #fff;
+    color: #2fbf71
   }
   .theme-light .header-left .nav-menu li .nav-link:hover {
     color: #2fbf71;

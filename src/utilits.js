@@ -1,25 +1,41 @@
 export const activeSection = () => {
-  const path = window.location.pathname;
-  window.addEventListener("scroll", () => {
+  const updateActiveLink = () => {
     const sections = document.querySelectorAll(".pp-section");
-    const navLi = document.querySelectorAll(".nav-menu li");
-    let current = "";
+    const navLinks = document.querySelectorAll(".nav-menu li");
+
+    let currentSectionId = "";
+
     sections.forEach((section) => {
-      const sectionTop = section.offsetTop;
-      const sectionHeight = section.clientHeight;
-      if (pageYOffset >= sectionTop - sectionHeight / 3) {
-        current = section.getAttribute("id");
+      const rect = section.getBoundingClientRect();
+      if (rect.top <= window.innerHeight / 2 && rect.bottom >= 0) {
+        currentSectionId = section.getAttribute("id");
       }
     });
-    navLi.forEach((li) => {
-      li.classList.remove("active");
-      if (
-        li.getElementsByTagName("a")[0].getAttribute("href") == `#${current}`
-      ) {
+
+    navLinks.forEach((li) => {
+      const anchor = li.querySelector("a");
+      if (!anchor) return;
+
+      const href = anchor.getAttribute("href");
+
+      if (href === `#${currentSectionId}`) {
         li.classList.add("active");
+      } else {
+        li.classList.remove("active");
       }
     });
-  });
+  };
+
+  // Initial trigger
+  updateActiveLink();
+
+  // Scroll listener
+  window.addEventListener("scroll", updateActiveLink);
+
+  // Cleanup if needed
+  return () => {
+    window.removeEventListener("scroll", updateActiveLink);
+  };
 };
 
 // Pagination

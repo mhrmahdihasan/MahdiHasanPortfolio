@@ -92,11 +92,11 @@ const About = () => {
             </div>
           </div>
         </div>
-
-        <div className="separated" id="education"/>
-        <div className="title" >
-          <h3>Education &amp; Skills</h3>
-        </div>
+    <section id="education">
+      <div className="separated" />
+          <div className="title" >
+            <h3>Education &amp; Skills</h3>
+          </div>
         <div className="row">
           <div className="col-lg-6 m-15px-tb">
             <ul className="aducation-box">
@@ -191,196 +191,198 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="separated" id='experience' />
-        <div className="title">
-          <h3>Experience.</h3>
-        </div>
-        <div className="resume-box">
-          <div className="resume-row">
-            <div className="row">
-              <div className="col-sm-3 col-md-3 col-xl-2">
-                <div className="rb-left">
-                  <Image src="/images/MhR Tech.png" layout="responsive" width={150} height={150}  title="" alt="" />
-                </div>
-              </div>
-              <div className="col-sm-9 col-md-9 col-xl-10">
-                <div className="rb-right">
-                  <h6>MhR Tech</h6>
-                  <label>Founder & Director || Khulna, Bangladesh</label>
-                  <div className="rb-time">2018 - Present </div>
-                  <p>
-                    I built MhR Tech in 2018, a Tech and digital marketing service industry that wants you to see from whom you are buying services.
-                    The Entrepreneur journey starts with a dedicated and energetic tech specialist team for the outsourcing & Virtual Assistant Profession.
-                    Whatever you are searching for, increasing your business area and promotion, you can have a look here for the most promising and practical services-
-                    You can execute your best ideas for promoting business through Digital Marketing, Lead Generation, Web Research, and Web Programming, together with digital marketing strategies and business technologies. Furthermore, the best service of different approaches for making your business a profitable one, as a Researcher, Developer, or by Digital Marketing AD-Min Support, the agency could be an excellent option.
-                  </p>
-                  <p>
-                    MhR Tech Special Package service for genuine and trustworthy business necessities offers you digital specialists such as analytics experts, content and technological specialists, designers, and marketing specialists in the whole box.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="resume-row">
-            <div className="row">
-              <div className="col-sm-3 col-md-3 col-xl-2">
-                <div className="rb-left">
-                  <Image src="/images/Tradetech.png" layout="responsive" width={150} height={150} title="" alt="" />
-                </div>
-              </div>
-              <div className="col-sm-9 col-md-9 col-xl-10">
-                <div className="rb-right">
-                  <h6>Trade Tech Inc</h6>
-                  <label>Sailing Schedule Specialist || WA, United State (Remote)</label>
-                  <div className="rb-time">2022 - Present </div>
-                  <p>
-                    Trade Tech Inc., based in Issaquah, WA, with offices located around the globe, specializes in cloud-based solutions for the international logistics industry. For shippers, forwarders, and carriers, Trade Tech&apos;s logistics and technology experts have created productivity solutions that unify.
-                  </p>
-                  <p>And now I am working as a shipping schedule specialist, working with shipping schedules and vessel tracking Databases, managing.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="resume-row">
-            <div className="row">
-              <div className="col-sm-3 col-md-3 col-xl-2">
-                <div className="rb-left">
-                  <Image src="/images/ImpactX.png" layout="responsive" width={150} height={150} title="" alt="" />
-                </div>
-              </div>
-              <div className="col-sm-9 col-md-9 col-xl-10">
-                <div className="rb-right">
-                  <h6>Impact X</h6>
-                  <label>Head of Audience Development || WA, United State (Remote)</label>
-                  <div className="rb-time">2020 - Present </div>
-                  <p>
-                    As Head of Audience Development, my key responsibilities are:
-                    Develop strategies to expand reach across platforms. Track metrics (engagement, retention, growth) and provide insights. Ensure content reaches the right audience via SEO, social media, and email. Work with content, marketing, and product teams to align goals. Oversee owned and third-party platforms for maximum impact. Run campaigns and partnerships to boost growth. Understand audience needs and segments for targeted strategies. Focus on growth, engagement, and data-driven approaches to support business goals.
+       </section> 
 
-                  </p>
-                </div>
-              </div>
+          <div className="separated" id="experience" />
+            <div className="title">
+              <h3>Experience.</h3>
             </div>
-          </div>
-          <div className="resume-row">
-            <div className="row">
-              <div className="col-sm-3 col-md-3 col-xl-2">
-                <div className="rb-left">
-                  <Image src="/images/ivisa.png" layout="responsive" width={150} height={150} title="" alt="" />
+            <div className="resume-box">
+              <div className="resume-row">
+                <div className="row">
+                  <div className="col-sm-3 col-md-3 col-xl-2">
+                    <div className="rb-left">
+                      <Image src="/images/MhR Tech.png" layout="responsive" width={150} height={150}  title="" alt="" />
+                    </div>
+                  </div>
+                  <div className="col-sm-9 col-md-9 col-xl-10">
+                    <div className="rb-right">
+                      <h6>MhR Tech</h6>
+                      <label>Founder & Director || Khulna, Bangladesh</label>
+                      <div className="rb-time">2018 - Present </div>
+                      <p>
+                        I built MhR Tech in 2018, a Tech and digital marketing service industry that wants you to see from whom you are buying services.
+                        The Entrepreneur journey starts with a dedicated and energetic tech specialist team for the outsourcing & Virtual Assistant Profession.
+                        Whatever you are searching for, increasing your business area and promotion, you can have a look here for the most promising and practical services-
+                        You can execute your best ideas for promoting business through Digital Marketing, Lead Generation, Web Research, and Web Programming, together with digital marketing strategies and business technologies. Furthermore, the best service of different approaches for making your business a profitable one, as a Researcher, Developer, or by Digital Marketing AD-Min Support, the agency could be an excellent option.
+                      </p>
+                      <p>
+                        MhR Tech Special Package service for genuine and trustworthy business necessities offers you digital specialists such as analytics experts, content and technological specialists, designers, and marketing specialists in the whole box.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="col-sm-9 col-md-9 col-xl-10">
-                <div className="rb-right">
-                  <h6>iVisa</h6>
-                  <label>Lead Generation & Internet Researcher || Delaware, United States (Remote)</label>
-                  <div className="rb-time">2019 - Present </div>
-                  <p>
-                    iVisa.com is the Leading Travel & Visa Services Provider, working throughout the world. The company creates a solution to make travel simple, fast, and reliable, to get the travel documentation necessary for a reliable and memorable journey. They welcomed me virtually as a &quot;Lead Generator&quot; for their &quot;Affiliates & Partnerships &quot; program. As a remote job holder, I described my job pleasantly and was responsible for leading the listing. We&apos;re always working with each other with satisfaction and happiness.
-                  </p>
+              <div className="resume-row">
+                <div className="row">
+                  <div className="col-sm-3 col-md-3 col-xl-2">
+                    <div className="rb-left">
+                      <Image src="/images/Tradetech.png" layout="responsive" width={150} height={150} title="" alt="" />
+                    </div>
+                  </div>
+                  <div className="col-sm-9 col-md-9 col-xl-10">
+                    <div className="rb-right">
+                      <h6>Trade Tech Inc</h6>
+                      <label>Sailing Schedule Specialist || WA, United State (Remote)</label>
+                      <div className="rb-time">2022 - Present </div>
+                      <p>
+                        Trade Tech Inc., based in Issaquah, WA, with offices located around the globe, specializes in cloud-based solutions for the international logistics industry. For shippers, forwarders, and carriers, Trade Tech&apos;s logistics and technology experts have created productivity solutions that unify.
+                      </p>
+                      <p>And now I am working as a shipping schedule specialist, working with shipping schedules and vessel tracking Databases, managing.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          
-          <div className="resume-row">
-            <div className="row">
-              <div className="col-sm-3 col-md-3 col-xl-2">
-                <div className="rb-left">
-                  <Image src="/images/Synapse.png" layout="responsive" width={150} height={150} title="" alt="" />
-                </div>
-              </div>
-              <div className="col-sm-9 col-md-9 col-xl-10">
-                <div className="rb-right">
-                  <h6>Synapse</h6>
-                  <label>Lead & CRM Specialist || Los Angeles, California, USA (Remote)</label>
-                  <div className="rb-time">2022 - 2025 </div>
-                  <p>
-                   Synapse leverages cutting-edge AI technology to redefine the recruitment process. They focus on identifying top talent, regardless of industry and location. At Synapse, they&apos;re more than a recruitment firm - they&apos;re a tech company transforming how businesses find and attract top-tier talent. I am Happy to be part of the Synapse Team.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+              <div className="resume-row">
+                <div className="row">
+                  <div className="col-sm-3 col-md-3 col-xl-2">
+                    <div className="rb-left">
+                      <Image src="/images/ImpactX.png" layout="responsive" width={150} height={150} title="" alt="" />
+                    </div>
+                  </div>
+                  <div className="col-sm-9 col-md-9 col-xl-10">
+                    <div className="rb-right">
+                      <h6>Impact X</h6>
+                      <label>Head of Audience Development || WA, United State (Remote)</label>
+                      <div className="rb-time">2020 - Present </div>
+                      <p>
+                        As Head of Audience Development, my key responsibilities are:
+                        Develop strategies to expand reach across platforms. Track metrics (engagement, retention, growth) and provide insights. Ensure content reaches the right audience via SEO, social media, and email. Work with content, marketing, and product teams to align goals. Oversee owned and third-party platforms for maximum impact. Run campaigns and partnerships to boost growth. Understand audience needs and segments for targeted strategies. Focus on growth, engagement, and data-driven approaches to support business goals.
 
-          <div className="resume-row">
-            <div className="row">
-              <div className="col-sm-3 col-md-3 col-xl-2">
-                <div className="rb-left">
-                  <Image src="/images/ARISTECHBD.png" layout="responsive" width={150} height={150} title="" alt="" />
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="col-sm-9 col-md-9 col-xl-10">
-                <div className="rb-right">
-                  <h6>ARISTECH BD</h6>
-                  <label>Digital Business Development Manager || Dhaka, Bangladesh</label>
-                  <div className="rb-time">2016 - 2018 </div>
-                  <p>
-                  Here, I was responsible for developing the company&apos;s business and sales through digital communications. In addition, I was engaged to Leads Collect And Database Building, Email Marketing And Campaign Run, Lead Generation & Web Research, LinkedIn Marketing.  As a development manager, I handled the corporate Social Media team and facilitated Marketing and Campaigns.
-                  </p>
+              <div className="resume-row">
+                <div className="row">
+                  <div className="col-sm-3 col-md-3 col-xl-2">
+                    <div className="rb-left">
+                      <Image src="/images/ivisa.png" layout="responsive" width={150} height={150} title="" alt="" />
+                    </div>
+                  </div>
+                  <div className="col-sm-9 col-md-9 col-xl-10">
+                    <div className="rb-right">
+                      <h6>iVisa</h6>
+                      <label>Lead Generation & Internet Researcher || Delaware, United States (Remote)</label>
+                      <div className="rb-time">2019 - Present </div>
+                      <p>
+                        iVisa.com is the Leading Travel & Visa Services Provider, working throughout the world. The company creates a solution to make travel simple, fast, and reliable, to get the travel documentation necessary for a reliable and memorable journey. They welcomed me virtually as a &quot;Lead Generator&quot; for their &quot;Affiliates & Partnerships &quot; program. As a remote job holder, I described my job pleasantly and was responsible for leading the listing. We&apos;re always working with each other with satisfaction and happiness.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="resume-row">
+                <div className="row">
+                  <div className="col-sm-3 col-md-3 col-xl-2">
+                    <div className="rb-left">
+                      <Image src="/images/Synapse.png" layout="responsive" width={150} height={150} title="" alt="" />
+                    </div>
+                  </div>
+                  <div className="col-sm-9 col-md-9 col-xl-10">
+                    <div className="rb-right">
+                      <h6>Synapse</h6>
+                      <label>Lead & CRM Specialist || Los Angeles, California, USA (Remote)</label>
+                      <div className="rb-time">2022 - 2025 </div>
+                      <p>
+                      Synapse leverages cutting-edge AI technology to redefine the recruitment process. They focus on identifying top talent, regardless of industry and location. At Synapse, they&apos;re more than a recruitment firm - they&apos;re a tech company transforming how businesses find and attract top-tier talent. I am Happy to be part of the Synapse Team.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="resume-row">
+                <div className="row">
+                  <div className="col-sm-3 col-md-3 col-xl-2">
+                    <div className="rb-left">
+                      <Image src="/images/ARISTECHBD.png" layout="responsive" width={150} height={150} title="" alt="" />
+                    </div>
+                  </div>
+                  <div className="col-sm-9 col-md-9 col-xl-10">
+                    <div className="rb-right">
+                      <h6>ARISTECH BD</h6>
+                      <label>Digital Business Development Manager || Dhaka, Bangladesh</label>
+                      <div className="rb-time">2016 - 2018 </div>
+                      <p>
+                      Here, I was responsible for developing the company&apos;s business and sales through digital communications. In addition, I was engaged to Leads Collect And Database Building, Email Marketing And Campaign Run, Lead Generation & Web Research, LinkedIn Marketing.  As a development manager, I handled the corporate Social Media team and facilitated Marketing and Campaigns.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="resume-row">
+                <div className="row">
+                  <div className="col-sm-3 col-md-3 col-xl-2">
+                    <div className="rb-left">
+                      <Image src="/images/Group&MillerGmbH.png" layout="responsive" width={150} height={150} title="" alt="" />
+                    </div>
+                  </div>
+                  <div className="col-sm-9 col-md-9 col-xl-10">
+                    <div className="rb-right">
+                      <h6>Group & Miller GmbH</h6>
+                      <label>Leads & CRM Manager || Oberhausen, Germany (Remote)</label>
+                      <div className="rb-time">2023 - Present </div>
+                      <p>
+                      As the Leads & CRM Manager at Group & Miller GmbH, I specialize in streamlining lead generation, optimizing CRM systems, and building efficient sales pipelines. My focus is on turning data into actionable strategies that boost conversion and drive sustainable growth. Passionate about automation, lead nurturing, and delivering measurable results.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="resume-row">
+                <div className="row">
+                  <div className="col-sm-3 col-md-3 col-xl-2">
+                    <div className="rb-left">
+                      <Image src="/images/Aeon.png" layout="responsive" width={150} height={150} title="" alt="" />
+                    </div>
+                  </div>
+                  <div className="col-sm-9 col-md-9 col-xl-10">
+                    <div className="rb-right">
+                      <h6>Aeon</h6>
+                      <label>Image & Video Data Analyst || Los Angeles, United State  (Remote)</label>
+                      <div className="rb-time">2023 - Present </div>
+                      <p>
+                    As an Image & Video Data Analyst at Aeon, I specialize in analyzing visual content to identify editing techniques, tools, and workflows used in images and videos. My work involves breaking down visual media to understand post-production methods, helping improve content strategy, quality control, and digital asset evaluation.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div className="resume-row">
+                <div className="row">
+                  <div className="col-sm-3 col-md-3 col-xl-2">
+                    <div className="rb-left">
+                      <Image src="/images/GITDesk.png" layout="responsive" width={150} height={150} title="" alt="" />
+                    </div>
+                  </div>
+                  <div className="col-sm-9 col-md-9 col-xl-10">
+                    <div className="rb-right">
+                      <h6>G IT Desk</h6>
+                      <label>Internet Research & IT Support Executive  || Dhaka, Bangladesh</label>
+                      <div className="rb-time">2015 - 2016 </div>
+                      <p>
+                      The first company where I got the chance to promote myself for the next journey. Services of the company continue to be outsourced to build successful entrepreneurial, diversified, and socially responsible client relations.That was a Lead and Web research position. Then I was also focused on Email Marketing and completed several tasks and projects regarding Technical Support and Networking issues.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="resume-row">
-            <div className="row">
-              <div className="col-sm-3 col-md-3 col-xl-2">
-                <div className="rb-left">
-                  <Image src="/images/Group&MillerGmbH.png" layout="responsive" width={150} height={150} title="" alt="" />
-                </div>
-              </div>
-              <div className="col-sm-9 col-md-9 col-xl-10">
-                <div className="rb-right">
-                  <h6>Group & Miller GmbH</h6>
-                  <label>Leads & CRM Manager || Oberhausen, Germany (Remote)</label>
-                  <div className="rb-time">2023 - Present </div>
-                  <p>
-                  As the Leads & CRM Manager at Group & Miller GmbH, I specialize in streamlining lead generation, optimizing CRM systems, and building efficient sales pipelines. My focus is on turning data into actionable strategies that boost conversion and drive sustainable growth. Passionate about automation, lead nurturing, and delivering measurable results.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="resume-row">
-            <div className="row">
-              <div className="col-sm-3 col-md-3 col-xl-2">
-                <div className="rb-left">
-                  <Image src="/images/Aeon.png" layout="responsive" width={150} height={150} title="" alt="" />
-                </div>
-              </div>
-              <div className="col-sm-9 col-md-9 col-xl-10">
-                <div className="rb-right">
-                  <h6>Aeon</h6>
-                  <label>Image & Video Data Analyst || Los Angeles, United State  (Remote)</label>
-                  <div className="rb-time">2023 - Present </div>
-                  <p>
-                 As an Image & Video Data Analyst at Aeon, I specialize in analyzing visual content to identify editing techniques, tools, and workflows used in images and videos. My work involves breaking down visual media to understand post-production methods, helping improve content strategy, quality control, and digital asset evaluation.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-            <div className="resume-row">
-            <div className="row">
-              <div className="col-sm-3 col-md-3 col-xl-2">
-                <div className="rb-left">
-                  <Image src="/images/GITDesk.png" layout="responsive" width={150} height={150} title="" alt="" />
-                </div>
-              </div>
-              <div className="col-sm-9 col-md-9 col-xl-10">
-                <div className="rb-right">
-                  <h6>G IT Desk</h6>
-                  <label>Internet Research & IT Support Executive  || Dhaka, Bangladesh</label>
-                  <div className="rb-time">2015 - 2016 </div>
-                  <p>
-                  The first company where I got the chance to promote myself for the next journey. Services of the company continue to be outsourced to build successful entrepreneurial, diversified, and socially responsible client relations.That was a Lead and Web research position. Then I was also focused on Email Marketing and completed several tasks and projects regarding Technical Support and Networking issues.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+   </section>
   );
 };
 export default About;

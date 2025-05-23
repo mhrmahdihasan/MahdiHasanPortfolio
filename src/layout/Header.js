@@ -1,15 +1,17 @@
 import Link from "next/link";
 import { Fragment, useEffect, useState } from "react";
 import { activeSection } from "../utilits";
-import { FaLinkedin ,FaTelegram,FaSkype,FaChartPie   } from 'react-icons/fa';
-import { FaSquareUpwork,FaSquareFacebook  } from "react-icons/fa6";
+import { FaTelegram,FaFacebookF   } from 'react-icons/fa';
+import { FaLinkedinIn,FaUpwork    } from "react-icons/fa6";
 import { TbWorld } from "react-icons/tb";
-import { RiAccountCircleLine } from "react-icons/ri";
-import { BsInfoSquare } from "react-icons/bs";
-import { BiSolidBookOpen } from "react-icons/bi";
-import { LuComponent } from "react-icons/lu";
-import { HiOutlineBadgeCheck } from "react-icons/hi";
-import { MdContacts } from "react-icons/md";
+import { PiSkypeLogo,PiTelegramLogo  } from "react-icons/pi";
+
+// import { RiAccountCircleLine } from "react-icons/ri";
+// import { BsInfoSquare } from "react-icons/bs";
+// import { BiSolidBookOpen } from "react-icons/bi";
+// import { LuComponent } from "react-icons/lu";
+// import { HiOutlineBadgeCheck } from "react-icons/hi";
+// import { MdContacts } from "react-icons/md";
 import Image from 'next/image';
 const Header = ({ blog }) => {
   const [sideBarToggle, setSideBarToggle] = useState(false);
@@ -56,29 +58,33 @@ useEffect(() => {
                 <Image style={{ objectFit: 'cover' }} width={100} height={100} src="/images/profile.png" title="" alt="" />
               </div>
               <h5>Mahdi Hasan</h5>
+                <div className="nav justify-content-center social-icons">
+                  <Link href="https://www.facebook.com/mahdihasanrumel" target="_blank">
+                    <FaFacebookF  />
+                  </Link>
+                  <Link href="https://www.linkedin.com/in/mahdihasanin/" target="_blank">
+                    <FaLinkedinIn  />
+                  </Link>
+                  <Link href="https://www.upwork.com/freelancers/~01d3d28a2fbcafdc7f" target="_blank">
+                    <FaUpwork    />
+                  </Link>
+                  {/* <Link href="skype:mahdihasanmhr@gmail.com?chat">
+                    <PiSkypeLogo     />
+                  </Link> */}
+                  <Link href="https://t.me/mahdihasanmhr" target="_blank">
+                    <PiTelegramLogo     />
+                  </Link>
+                  <Link href="http://www.mhrtechnology.com" target="_blank">
+                    <TbWorld   />
+                  </Link>                    
+                </div>
             </div>
           </div>
           {blog ? <MenuWithBlog /> : <MenuWithOutBlog />}
-        </div>
-        <div className="nav justify-content-center social-icons">
-          <Link href="https://www.facebook.com/mahdihasanrumel">
-             <FaSquareFacebook  />
-          </Link>
-          <Link href="https://www.linkedin.com/in/mahdihasanin/">
-             <FaLinkedin />
-          </Link>
-          <Link href="https://www.upwork.com/freelancers/~01d3d28a2fbcafdc7f">
-             <FaSquareUpwork   />
-          </Link>
-          <Link href="skype:mahdihasanmhr@gmail.com?chat">
-             <FaSkype     />
-          </Link>
-          <Link href="https://t.me/mahdihasanmhr">
-             <FaTelegram    />
-          </Link>
-          <Link href="http://www.mhrtechnology.com">
-             <TbWorld   />
-          </Link>                    
+          <div className="header-contact-info">
+              <button><Link href="tel:+8801635592057">Phone</Link></button>
+              <button> <Link href="mailto:mahdihasanmhr@gmail.com">Email</Link> </button>
+          </div>
         </div>
       </header>
     </Fragment>
@@ -120,6 +126,7 @@ const MenuWithOutBlog = () => {
         </Link>
       </li>
     </ul>
+    
   );
 };
 
@@ -183,6 +190,7 @@ const MenuWithBlog = () => {
           </Link>
         </li>
       </ul>
+
     </Fragment>
   );
 };

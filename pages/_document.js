@@ -29,7 +29,7 @@ export default function Document() {
           rel="stylesheet"
         />
       </Head>
-      <body>
+      <body className='`${inter.variable} ${poppins.variable} ${bebas.variable} font-sans`'>
         <Main />
         <NextScript />
       </body>

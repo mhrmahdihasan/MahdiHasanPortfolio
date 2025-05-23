@@ -7,7 +7,10 @@ import Link from "next/link";
 import Footer from "../src/components/Footer";
 import Image from 'next/image';
 import Services from "../src/components/Services";
-import SocialShareButtons from "../src/components/SocialShareButtons";
+import SkypeButton from "../src/components/SkypeButton";
+import { TfiEmail } from "react-icons/tfi";
+
+// import SocialShareButtons from "../src/components/SocialShareButtons";
 const IndexParticles = () => {
 
   return (
@@ -26,16 +29,17 @@ const IndexParticles = () => {
               <div className="col-lg-6 order-2 order-lg-1">
                 <div className="type-box">
                   <h6>Hello, I&apos;m</h6>
-                  <h1 className="font-alt">Mahdi Hasan</h1>
+                  <h1>Mahdi Hasan</h1>
                   <p className="lead">
                     IT Engineer And Digital Business & Marketing Specialist <span id="type-it" />
                   </p>
                   <p className="desc">
                     Committed to growing your business through strategic planning and effective online marketing. Passionate about business development, digital strategy, and delivering real results. Driven by creativity, leadership, and a mindset of continuous improvement. Your success is my mission.
                   </p>
-                  <div className="btn-bar">
-                    <Link href="#" className="px-btn px-btn-theme">
-                      Donwload CV
+                  <div className="pt-3">
+                    <Link href="mailto:mahdihasanmhr@gmail.com" target="_blank" className="hero-section-btn">
+                      <TfiEmail className="hero-section-mail-icon"/>                    
+                      Send Email
                     </Link>                    
                   </div>
                 </div>
@@ -58,7 +62,8 @@ const IndexParticles = () => {
       {/* Contact us */}
       <Contact />
       {/* Footer  */}
-      <SocialShareButtons />
+      <SkypeButton />
+      {/* <SocialShareButtons /> */}
       <Footer/>
     </Layout>
   );

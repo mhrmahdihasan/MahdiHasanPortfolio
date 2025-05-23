@@ -23,8 +23,7 @@ Primary use:    pxdraft
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
   color: rgba(255, 255, 255, 0.8);
-  font-family: "Rubik", monospac;
-  line-height: 1.7;
+  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   font-weight: 300;
 }
@@ -144,38 +143,26 @@ mark {
 
 .px-btn {
   padding: 0 25px;
+  font-family: inter;
   line-height: 42px;
   position: relative;
   display: inline-block;
-  background: none;
-  border: 1px solid transparent;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
-  letter-spacing: 2px;
   text-decoration: none !important;
   -moz-transition: ease all 0.35s;
   -o-transition: ease all 0.35s;
   -webkit-transition: ease all 0.35s;
   transition: ease all 0.35s;
+  background: #2fbf71;
+  color: white;
+  border: none;
+  text-transform: capitalize;
 }
-.px-btn.px-btn-theme {
-  background: #0F172A;
-  color: #fff;
-  box-shadow: 4px 4px #fff;
-}
-.theme-light .px-btn.px-btn-theme {
-  box-shadow: 4px 4px #0b0b13;
-}
-.px-btn.px-btn-theme:hover {
-  background: #fff;
+.px-btn:hover {
+  background:white ;
   color: #2fbf71;
-  box-shadow: 4px 4px #2fbf71;
 }
-.theme-light .px-btn.px-btn-theme:hover {
-  background: #0b0b13;
-  color: #fff;
-}
-
 /* Bg color
 ----------------------------*/
 .dark-bg {
@@ -236,10 +223,10 @@ mark {
 }
 .header-left .hl-top h5 {
   margin: 23px 0 0;
-  font-weight: 300;
+  font-weight: 500;
   text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: 7px;
+  font-size: 20px;
+  letter-spacing: 4px;
   color: #fff;
 }
 .theme-light .header-left .hl-top h5 {
@@ -261,16 +248,16 @@ mark {
 .header-left .nav-menu li .nav-link {
   margin: 0;
   padding: 15px 30px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   -moz-transition: ease all 0.35s;
   -o-transition: ease all 0.35s;
   -webkit-transition: ease all 0.35s;
   transition: ease all 0.35s;
-  font-size: 12px;
-  font-weight: 300;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: capitalize;
   line-height: 18px;
 }
 .theme-light .header-left .nav-menu li .nav-link {
@@ -304,20 +291,33 @@ mark {
   font-weight: 600;
   color: #2fbf71;
 }
-.header-left .social-icons {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 12px 0;
+.header-left .social-icons{
+  margin-top: 15px;
 }
 .header-left .social-icons a {
-  color: #fff;
-  font-size: 14px;
-  margin-right: 17px;
+  font-size: 15px;
+  padding: 3px 8px;
+  background: white;
+  color: black;
+  margin-right: 8px;
+      -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+}
+.header-left .social-icons a:hover{
+    background: #2fbf71;
+    color: white;
+
+}
+.theme-light .header-left .social-icons a:hover{
+    background: white;
+    color: #2fbf71;
+
 }
 .theme-light .header-left .social-icons a {
-  color: #0b0b13;
+  color: #ffffff;
+  background: #2fbf71;
 }
 
 .tooltip {
@@ -395,6 +395,62 @@ mark {
     left: 0;
   }
 }
+
+.header-contact-info {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header-contact-info button {
+  background: white;
+  color: #2fbf71;
+  border: none;
+  font-size: 16px;
+  width: 50%;
+  padding: 10px;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+}
+
+
+.header-contact-info button a{
+  text-decoration: none;
+  color: #2fbf71;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+}
+.theme-light .header-contact-info button a{
+  text-decoration: none;
+  color:white;
+}
+.header-contact-info button:first-child {
+  border-right: 1px solid rgba(11, 11, 19, 0.05);
+}
+.header-contact-info button:hover {
+  background: #2fbf71;
+}
+.header-contact-info button:hover a{
+  color:white;
+} 
+
+.theme-light .header-contact-info button{
+  background: #2fbf71;
+  color:white;
+} 
+.theme-light .header-contact-info button:hover{
+  background: white;
+}
+.theme-light .header-contact-info button:hover a{
+  color:#2fbf71;
+}
+
 #pp-nav {
   margin-right: 50px;
 }
@@ -1185,7 +1241,7 @@ mark {
   }
 }
 .home-banner .type-box h1 {
-  font-size: 65px;
+  font-size: 79px;
   font-weight: 700;
   line-height: 1;
   margin: 0 0 20px;
@@ -1221,8 +1277,9 @@ mark {
   }
 }
 .home-banner .type-box .desc {
-  max-width: 450px;
-  font-size: 18px;
+max-width: 100%;
+  font-size: 16px;
+  text-align: justify;
 }
 @media (max-width: 767px) {
   .home-banner .type-box .desc {
@@ -1231,6 +1288,41 @@ mark {
 }
 .home-banner .type-box .btn-bar {
   padding-top: 15px;
+}
+.hero-section-mail-icon{
+  margin-right: 10px;
+}
+.hero-section-btn{
+  background: transparent;
+  border: 1px solid white;
+  font-size: 24px;
+  color: white;
+  padding: 10px 30px;
+  font-family: inter;
+  text-decoration: none;
+  -moz-transition: ease all 0.55s;
+  -o-transition: ease all 0.55s;
+  -webkit-transition: ease all 0.55s;
+  transition: ease all 0.55s;
+}
+.theme-light .hero-section-btn{
+  background: transparent;
+  border: 1px solid #555;
+  color: #555;
+}
+.hero-section-btn:hover{
+  background: #2fbf71;
+  color: white;
+  text-decoration: none;
+  border-color:#2fbf71 ;
+
+}
+.theme-light .hero-section-btn:hover{
+  background: #2fbf71;
+  color: white;
+  text-decoration: none;
+  border-color:#2fbf71 ;
+
 }
 
 /* Home Banner 01
@@ -1381,13 +1473,16 @@ mark {
   color: #fff;
 }
 
-@media (min-width: 1201px) {
+/* @media (min-width: 1201px) {
   .about-info {
     padding-right: 100px;
   }
-}
+} */
 .about-info .title {
   margin-bottom: 40px;
+}
+.about-text p {
+  text-align: justify;
 }
 .Professionalprofile .about-text h3,
 .about-info .about-text h3 {
@@ -1518,18 +1613,18 @@ mark {
 }
 @media (max-width: 767px) {
   .testimonial-01 .avatar {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
   }
 }
 .testimonial-01 .media-body {
   padding-top: 25px;
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .testimonial-01 .media-body {
     padding-left: 15px;
   }
-}
+} */
 .testimonial-01 h6 {
   color: #fff;
   margin: 0 0 5px;
@@ -1557,6 +1652,13 @@ mark {
 .resume-row {
   padding: 35px;
 }
+.resume-row img{
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.theme-light .resume-row img{
+border: 1px solid rgba(11, 11, 19, 0.05);
+}
+
 @media (max-width: 991px) {
   .resume-row {
     padding: 20px;
@@ -1581,19 +1683,17 @@ mark {
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  .resume-row .rb-left {
-    border-right: 1px solid rgba(255, 255, 255, 0.05);
-  }
-  .theme-light .resume-row .rb-left {
-    border-right: 1px solid rgba(11, 11, 19, 0.05);
-  }
-}
+
 @media (max-width: 767px) {
   .resume-row .rb-left {
     margin-bottom: 25px;
     text-align: left;
   }
+  .resume-row img{
+  width: 150px !important;
+  height: 150px !important;
+  
+}
 
 }
 .resume-row .rb-time {
@@ -1648,6 +1748,7 @@ mark {
 }
 .skills-box p {
   padding-bottom: 10px;
+  text-align: justify;
 }
 
 .skill-lt {
@@ -1697,6 +1798,11 @@ mark {
   padding: 0;
   background: #0b0b13;
   list-style: none;
+}
+.testimonial-01 .media-body p,
+.resume-row p ,
+.aducation-box p {
+  text-align: justify;
 }
 .theme-light .aducation-box {
   background: #f7f7ff;
@@ -1846,7 +1952,7 @@ mark {
 }
 .theme-light .contact-form .form-control {
   color: #0b0b13;
-  border: 1px solid rgba(11, 11, 19, 0.3);
+  border: 1px solid rgba(11, 11, 19, 0.1);
   background: #fff;
 }
 .contact-form textarea.form-control {
@@ -1879,48 +1985,26 @@ mark {
 
 /*# sourceMappingURL=style.css.map */
 
-/* SocialShareButtons */
-.social-share-container {
-          position: fixed;
-          top: 50%;
-          right: 0;
-          transform: translateY(-50%);
-          display: flex;
-          flex-direction: column;
-          gap: 10px;
-          z-index: 9999;
-        }
+/* Skype button  */
+/* Add this to your global CSS or module CSS file */
+.skype-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #00aff0;
+  color: white;
+  padding: 12px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: transform 0.2s ease;
+}
 
-        .social-btn {
-          background-color: #fff;
-          border: 1px solid #ddd;
-          width: 45px;
-          height: 45px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 20px;
-          color: #000;
-          transition: all 0.3s ease;
-        }
-        .social-btn:hover {
-          transform: scale(1.1);
-          color: #fff !important;
-        }
-        .social-btn {
-          background-color: #0077b5;
-          color: white;
-          border-color: #0077b5;
-        }
-        .social-btn:nth-child(1) {
-          background-color: #1877f2;
-          border-color: #1877f2;
-        }
+.skype-button:hover {
+  transform: scale(1.1);
+  color: white;
+}
 
-        .social-btn:nth-child(3) {
-          background-color: #6fda44;
-          border-color: #6fda44;
-        }
 
 
 /* Footer Section Started  */

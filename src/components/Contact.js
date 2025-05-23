@@ -62,7 +62,7 @@ const Contact = () => {
           <h3>Contact info</h3>
         </div>
         <div className="row">
-          <div className="col-lg-5 col-xl-4 m-15px-tb">
+          <div className="col-lg-6 col-xl-5 m-15px-tb">
             <div className="contact-info">
               <h4>Feel free to reach out for collaboration</h4>
               <p>
@@ -97,7 +97,7 @@ const Contact = () => {
               </ul>
             </div>
           </div>
-          <div className="col-lg-7 col-xl-8 m-15px-tb">
+          <div className="col-lg-6 col-xl-7 m-15px-tb">
             <div className="contact-form">
               <h4>Say Something</h4>
               <form id="contact-form" onSubmit={(e) => onSubmit(e)}>
@@ -156,7 +156,8 @@ const Contact = () => {
                         id="message"
                         placeholder="Your message *"
                         rows={5}
-                        className={`form-control ${
+                         style={{ resize: "none" }}
+                        className={` form-control ${
                           error ? (!message ? "invalid" : "") : ""
                         }`}
                       />

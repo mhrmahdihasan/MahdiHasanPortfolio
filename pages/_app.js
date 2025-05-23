@@ -4,6 +4,13 @@ import Head from "next/head";
 import PreLoader from "../src/layout/PreLoader";
 import "../styles/glitch.css";
 import "../styles/globals.css";
+// Google Fonts 
+import { Inter, Poppins, Bebas_Neue } from 'next/font/google'
+
+export const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+export const poppins = Poppins({ subsets: ['latin'], weight: ['400', '600'], variable: '--font-poppins' })
+export const bebas = Bebas_Neue({ subsets: ['latin'], weight: '400', variable: '--font-bebas' })
+
 
 function MyApp({ Component, pageProps }) {
   const [load, setLoad] = useState(true);

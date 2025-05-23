@@ -16,7 +16,7 @@ const About = () => {
               </div>
               <div className="about-text">
                 <h3>
-                 Talent you have naturally. Skill is only developed by hours and hours and hours of beating on your craft- Will Smith.
+                 Talent you have naturally. Skill is only developed by hours and hours of beating on your craft- Will Smith.
                 </h3>
                 <p>
                   Welcome Here!
@@ -45,14 +45,6 @@ const About = () => {
                   <p>
                       I specialize in Google & LinkedIn advertising with Campaign creation, Management, Optimization, and linking up a regular progress report for a better understanding. Also, I use Google Analytics, Artificial Intelligence (AI), and other tracking tools to track and connect new leads and sales, securing your sales funnel for the next era.
                   </p>
-                </div>
-                <div className="btn-bar">
-                  <Link href="#experience" className="px-btn px-btn-theme">                  
-                    <span>Experience</span>                 
-                  </Link>
-                  <Link href="#contactinfo" className="px-btn px-btn-theme">          
-                    <span>Contact Info</span>      
-                  </Link>
                 </div>
               </div>
             </div>

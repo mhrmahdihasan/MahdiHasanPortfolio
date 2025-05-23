@@ -64,7 +64,7 @@ const Testimonials = () => {
           </div>
           <div className="media-body">
             <p>
-            Mahdi was an amazing co-worker beside me, he&apos;s really smart and a brilliant Co-worker. Always he was ready to take new challenges also he&apos;s a quick learner. His hard work and dedication made me happy. Attitude, work quality, and movement were really admirable. I wish for his better luck. 
+            Mahdi was an amazing co-worker beside me, he&apos;s really smart and a brilliant Co-worker. Always he was ready to take new challenges also he&apos;s a quick learner. His hard work and dedication made me happy. Attitude, work quality, and movement were really admirable. I wish for his better luck. Definitely we will work again soon. 
             </p>
             <h6>Bell Media</h6>
             <span>Toronto, Canada</span>

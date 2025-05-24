@@ -6,7 +6,7 @@ const DayNightMood = () => {
     document.querySelector("body").classList.toggle("theme-light");
   };
   return (
-    <label className="color_switch" onClick={() => changeMood()}>
+    <label className="color_switch" onClick={() => changeMood()} title="Toggle Day/Night Mood">
       <BsFillMoonStarsFill />
     </label>
   );

@@ -398,10 +398,10 @@ mark {
   display: flex;
   width: 100%;
   padding: 0px 25px;
-  flex-direction: column;
 }
 
 .header-contact-info button {
+  width: 50%;
   padding: 6px;
   font-size: 15px;
   border: none;
@@ -2083,6 +2083,8 @@ border: 1px solid rgba(11, 11, 19, 0.05);
   -webkit-transition: ease all 0.55s;
   transition: ease all 0.55s;
   border-radius: 8px;
+  background: #2fbf71 ;
+
 }
 
 .footer-contact-btn {
@@ -2096,9 +2098,7 @@ border: 1px solid rgba(11, 11, 19, 0.05);
   font-size: 25px;
   color: white;
 }
-.btn-email{
-background: #2fbf71 ;
-}
+
 /* Footer Section Started  */
 
 .footer-btn:hover{

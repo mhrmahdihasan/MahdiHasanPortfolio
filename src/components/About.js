@@ -170,7 +170,7 @@ const About = () => {
                 <div className="row">
                   <div className="col-sm-3 col-md-3 col-xl-2">
                     <div className="rb-left">
-                      <Image src="/images/MhR Tech.png" layout="responsive" className='overflow-hidden'  width={100} height={100}  title="" alt="" />
+                      <Image src="/images/MhR Tech.png" layout="responsive" className='experience-image'  width={100} height={100}  title="" alt="" />
                     </div>
                   </div>
                   <div className="col-sm-9 col-md-9 col-xl-10">
@@ -198,7 +198,7 @@ const About = () => {
                 <div className="row">
                   <div className="col-sm-3 col-md-3 col-xl-2">
                     <div className="rb-left">
-                      <Image src="/images/ivisa.png" layout="responsive" width={150} height={150} title="" alt="" />
+                      <Image src="/images/ivisa.png" layout="responsive" className='experience-image' width={90} height={90} title="" alt="" />
                     </div>
                   </div>
                   <div className="col-sm-9 col-md-9 col-xl-10">
@@ -217,7 +217,7 @@ const About = () => {
                 <div className="row">
                   <div className="col-sm-3 col-md-3 col-xl-2">
                     <div className="rb-left">
-                      <Image src="/images/ImpactX.png" layout="responsive" width={150} height={150} title="" alt="" />
+                      <Image src="/images/ImpactX.png" layout="responsive" className='experience-image' width={100} height={100} title="" alt="" />
                     </div>
                   </div>
                   <div className="col-sm-9 col-md-9 col-xl-10">
@@ -237,7 +237,7 @@ const About = () => {
                 <div className="row">
                   <div className="col-sm-3 col-md-3 col-xl-2">
                     <div className="rb-left">
-                      <Image src="/images/Tradetech.png" layout="responsive" width={150} height={150} title="" alt="" />
+                      <Image src="/images/Tradetech.png" layout="responsive" className='experience-image' width={100} height={100} title="" alt="" />
                     </div>
                   </div>
                   <div className="col-sm-9 col-md-9 col-xl-10">
@@ -257,7 +257,7 @@ const About = () => {
                 <div className="row">
                   <div className="col-sm-3 col-md-3 col-xl-2">
                     <div className="rb-left">
-                      <Image src="/images/Group&MillerGmbH.png" layout="responsive" width={150} height={150} title="" alt="" />
+                      <Image src="/images/Group&MillerGmbH.png" layout="responsive" className='experience-image' width={100} height={100} title="" alt="" />
                     </div>
                   </div>
                   <div className="col-sm-9 col-md-9 col-xl-10">
@@ -277,7 +277,7 @@ const About = () => {
                 <div className="row">
                   <div className="col-sm-3 col-md-3 col-xl-2">
                     <div className="rb-left">
-                      <Image src="/images/Aeon.png" layout="responsive" width={150} height={150} title="" alt="" />
+                      <Image src="/images/Aeon.png" layout="responsive" className='experience-image' width={100} height={100} title="" alt="" />
                     </div>
                   </div>
                   <div className="col-sm-9 col-md-9 col-xl-10">
@@ -296,7 +296,7 @@ const About = () => {
                 <div className="row">
                   <div className="col-sm-3 col-md-3 col-xl-2">
                     <div className="rb-left">
-                      <Image src="/images/Synapse.png" layout="responsive" width={150} height={150} title="" alt="" />
+                      <Image src="/images/Synapse.png" layout="responsive" className='experience-image' width={100} height={100} title="" alt="" />
                     </div>
                   </div>
                   <div className="col-sm-9 col-md-9 col-xl-10">
@@ -315,7 +315,7 @@ const About = () => {
                 <div className="row">
                   <div className="col-sm-3 col-md-3 col-xl-2">
                     <div className="rb-left">
-                      <Image src="/images/ARISTECHBD.png" layout="responsive" width={150} height={150} title="" alt="" />
+                      <Image src="/images/ARISTECHBD.png" layout="responsive" className='experience-image' width={100} height={100} title="" alt="" />
                     </div>
                   </div>
                   <div className="col-sm-9 col-md-9 col-xl-10">
@@ -334,7 +334,7 @@ const About = () => {
                 <div className="row">
                   <div className="col-sm-3 col-md-3 col-xl-2">
                     <div className="rb-left">
-                      <Image src="/images/GITDesk.png" layout="responsive" width={150} height={150} title="" alt="" />
+                      <Image src="/images/GITDesk.png" layout="responsive" className='experience-image' width={100} height={100} title="" alt="" />
                     </div>
                   </div>
                   <div className="col-sm-9 col-md-9 col-xl-10">

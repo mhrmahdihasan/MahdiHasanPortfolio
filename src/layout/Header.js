@@ -14,6 +14,7 @@ import { FiMenu, FiX } from "react-icons/fi";
 // import { MdContacts } from "react-icons/md";
 import Image from 'next/image';
 const Header = ({ blog }) => {
+    const [isHovered, setIsHovered] = useState(false);
   const [sideBarToggle, setSideBarToggle] = useState(false);
 useEffect(() => {
   let cleanup;
@@ -79,10 +80,22 @@ useEffect(() => {
             </div>
           </div>
           {blog ? <MenuWithBlog /> : <MenuWithOutBlog />}
-          <div className="header-contact-info">
-              <button><Link href="tel:+8801635592057">Phone</Link></button>
-              <button> <Link href="mailto:mahdihasanmhr@gmail.com">Email</Link> </button>
-          </div>
+    <div className="header-contact-info ">
+      <button
+        className={isHovered ? 'swapped' : 'primary'}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
+        <Link href="tel:+8801635592057">Phone</Link>
+      </button>
+      <button
+        className={isHovered ? 'primary' : 'swapped'}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
+        <Link href="mailto:mahdihasanmhr@gmail.com">Email</Link>
+      </button>
+    </div>
         </div>
       </header>
     </Fragment>

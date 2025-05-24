@@ -24,7 +24,7 @@ Primary use:    pxdraft
 body {
   color: rgba(255, 255, 255, 0.8);
   font-family: 'Poppins', sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
 }
 body.theme-light {
@@ -403,50 +403,36 @@ mark {
 }
 
 .header-contact-info button {
-  background: white;
-  color: #0c0c14;
-  border: none;
-  font-size: 16px;
   width: 50%;
-  padding: 10px;
-  -moz-transition: ease all 0.35s;
-  -o-transition: ease all 0.35s;
-  -webkit-transition: ease all 0.35s;
-  transition: ease all 0.35s;
+  padding: 6px;
+  font-size: 15px;
+  border: none;
+  transition: all 0.35s ease;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 1px solid transparent;
 }
 
 
-.header-contact-info button a{
+.header-contact-info button a {
   text-decoration: none;
-  color: #0c0c14;
-  -moz-transition: ease all 0.35s;
-  -o-transition: ease all 0.35s;
-  -webkit-transition: ease all 0.35s;
-  transition: ease all 0.35s;
+  color: inherit;
 }
-.theme-light .header-contact-info button a{
-  text-decoration: none;
-  color:white;
-}
-.header-contact-info button:first-child {
-  border-right: 1px solid rgba(11, 11, 19, 0.05);
-}
-.header-contact-info button:hover {
-  background: #2fbf71;
-}
-.header-contact-info button:hover a{
-  color:white;
-} 
 
-.theme-light .header-contact-info button{
-  background: #2fbf71;
-  color:white;
-} 
-.theme-light .header-contact-info button:hover{
+/* Primary = white background */
+.header-contact-info .primary {
   background: white;
+  color: #0c0c14;
 }
-.theme-light .header-contact-info button:hover a{
-  color:#2fbf71;
+
+/* Swapped = green background */
+.header-contact-info .swapped {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.theme-light .header-contact-info .swapped {
+  background: #2fbf71;
 }
 
 #pp-nav {
@@ -1275,9 +1261,10 @@ mark {
   }
 }
 .home-banner .type-box .desc {
-max-width: 100%;
-  font-size: 16px;
+  max-width: 100%;
+  font-size: 14px;
   text-align: justify;
+  font-family: inter;
 }
 @media (max-width: 767px) {
   .home-banner .type-box .desc {
@@ -1292,36 +1279,96 @@ max-width: 100%;
 }
 .hero-section-btn {
   background: transparent;
-  border: 1px solid white;
-  font-size: 22px;
+  border-bottom: 1px solid white;
+  font-size: 15px;
   color: white;
-  padding: 8px 30px;
-  font-family: inter;
+  padding: 2px;
+  font-family: poppins;
   text-decoration: none;
   -moz-transition: ease all 0.55s;
   -o-transition: ease all 0.55s;
   -webkit-transition: ease all 0.55s;
   transition: ease all 0.55s;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 9px;
+}
+.hero-section-btn:hover{
+  opacity: 0.8;
+  color: white;
+  text-decoration: none;
 }
 .theme-light .hero-section-btn{
   background: transparent;
   border: 1px solid #555;
   color: #555;
 }
-.hero-section-btn:hover{
-  background: #2fbf71;
-  color: white;
-  text-decoration: none;
-  border-color:#2fbf71 ;
-
+.heroBtn {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
 }
-.theme-light .hero-section-btn:hover{
-  background: #2fbf71;
-  color: white;
-  text-decoration: none;
-  border-color:#2fbf71 ;
 
+.btn {
+  padding: 10px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
 }
+
+.herobtn-icon {
+  font-size: 20px;
+  margin-right: 5px;
+}
+/* WhatsApp Button */
+.whatsapp {
+  /* background-color: #25D366; */
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+.theme-light .whatsapp {
+  background-color: white;
+  border: 1px solid white;
+  color: #25D366;
+}
+.theme-light .whatsapp:hover {
+  background-color: #25D366;
+  border: 1px solid white;
+  color: white;
+}
+.whatsapp:hover {
+  background-color: white;
+  color: #25D366;
+}
+
+/* Skype Button */
+.skype {
+  /* background-color: #00AFF0; */
+  background: white;
+  border: 1px solid #00AFF0;
+  color: #00AFF0;
+}
+.theme-light .skype {
+  /* background-color: #00AFF0; */
+  background: #00AFF0;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.theme-light .skype:hover {
+  /* background-color: #00AFF0; */
+  background: transparent;
+  border: 1px solid #00AFF0;
+  color: #00AFF0;
+}
+.skype:hover {
+  background-color: #00AFF0;
+  color: white;
+}
+
+
 .banner-right-img{
   border: 2px solid rgba(255, 255, 255, 0.17);
   border-radius: 50%;
@@ -1489,6 +1536,7 @@ max-width: 100%;
 }
 .about-text p {
   text-align: justify;
+  font-size: 13px;
 }
 .Professionalprofile .about-text h3,
 .about-info .about-text h3 {
@@ -1644,6 +1692,10 @@ max-width: 100%;
 
 /* Experience
 -----------------------------------*/
+.experience-image{
+  width: 90% !important;
+  height: 90% !important;
+}
 .resume-box {
   display: inline-block;
   vertical-align: top;
@@ -1809,6 +1861,7 @@ border: 1px solid rgba(11, 11, 19, 0.05);
 .resume-row p ,
 .aducation-box p {
   text-align: justify;
+  font-size: 13px;
 }
 .theme-light .aducation-box {
   background: #f7f7ff;
@@ -1991,14 +2044,13 @@ border: 1px solid rgba(11, 11, 19, 0.05);
 
 /*# sourceMappingURL=style.css.map */
 
-/* Skype button  */
+/* whatsapp button  */
 /* Add this to your global CSS or module CSS file */
-.skype-button {
+.whatsapp-button {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #00aff0;
-  color: white;
+  background-color: #25D366;  color: white;
   padding: 12px;
   border-radius: 50%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -2006,7 +2058,7 @@ border: 1px solid rgba(11, 11, 19, 0.05);
   transition: transform 0.2s ease;
 }
 
-.skype-button:hover {
+.whatsapp-button:hover {
   transform: scale(1.1);
   color: white;
 }

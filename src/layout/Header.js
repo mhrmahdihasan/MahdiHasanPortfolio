@@ -5,7 +5,7 @@ import { FaTelegram,FaFacebookF   } from 'react-icons/fa';
 import { FaLinkedinIn,FaUpwork    } from "react-icons/fa6";
 import { TbWorld } from "react-icons/tb";
 import { PiSkypeLogo,PiTelegramLogo  } from "react-icons/pi";
-
+import { FiMenu, FiX } from "react-icons/fi";
 // import { RiAccountCircleLine } from "react-icons/ri";
 // import { BsInfoSquare } from "react-icons/bs";
 // import { BiSolidBookOpen } from "react-icons/bi";
@@ -35,12 +35,10 @@ useEffect(() => {
             </Link>
           </div>
           <button
-            className={`toggler-menu ${sideBarToggle ? "open" : ""}`}
+            className="toggler-menu"
             onClick={() => setSideBarToggle(!sideBarToggle)}
           >
-            <span />
-            <span />
-            <span />
+            {sideBarToggle ? <FiX size={24} /> : <FiMenu size={24} />}
           </button>
         </div>
       </div>

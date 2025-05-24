@@ -273,7 +273,7 @@ mark {
 .header-left .nav-menu li .nav-link span {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 @media (min-width: 768px) {
   .header-left .nav-menu li .nav-link:hover {
@@ -1290,12 +1290,12 @@ max-width: 100%;
 .hero-section-mail-icon{
   margin-right: 10px;
 }
-.hero-section-btn{
+.hero-section-btn {
   background: transparent;
   border: 1px solid white;
-  font-size: 24px;
+  font-size: 22px;
   color: white;
-  padding: 10px 30px;
+  padding: 8px 30px;
   font-family: inter;
   text-decoration: none;
   -moz-transition: ease all 0.55s;
@@ -1762,7 +1762,7 @@ border: 1px solid rgba(11, 11, 19, 0.05);
   top: -5px;
 }
 .skill-lt:not(:first-child) {
-  margin-top: 25px;
+  margin-top: 19px;
 }
 .skill-lt h6 {
   font-size: 14px;

@@ -396,14 +396,12 @@ mark {
 
 .header-contact-info {
   display: flex;
-  position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
+  padding: 0px 25px;
+  flex-direction: column;
 }
 
 .header-contact-info button {
-  width: 50%;
   padding: 6px;
   font-size: 15px;
   border: none;
@@ -468,14 +466,8 @@ mark {
   display: none;
 }
 
-.footer {
-  padding: 12px 0;
-  background: #0b0b13;
-}
-.theme-light .footer {
-  background: #fff;
-  border-top: 1px solid rgba(11, 11, 19, 0.1);
-}
+
+
 .footer .nav a {
   color: #fff;
   font-size: 14px;
@@ -487,11 +479,7 @@ mark {
 .footer .nav a:hover {
   color: #2fbf71;
 }
-.footer p {
-  color: #fff;
-  font-size: 14px;
-  margin: 0;
-}
+
 .theme-light .footer p {
   color: #0b0b13;
 }
@@ -2063,17 +2051,98 @@ border: 1px solid rgba(11, 11, 19, 0.05);
   color: white;
 }
 
+.footer-top{
+  padding: 100px 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  background:#0b0b13;
+}
+.footer-top h2{
+  font-size: 57px;
+  color: #fff;
+  font-family: inter;
+}
+.theme-light .footer-top{
+ background: #f7f7ff;
+  border-bottom: 1px solid rgba(11, 11, 19, 0.05);
+}
+.theme-light .footer-top h2{
+  font-size: 57px;
+  color: black;
+}
+.footer p{
+  font-size: 13px;
+  color:#ddd
+}
+.footer-btn{
+  border:2px solid transparent ;
+  padding: 10px 14px;
+  font-family: poppins;
+  text-decoration: none;
+  -moz-transition: ease all 0.55s;
+  -o-transition: ease all 0.55s;
+  -webkit-transition: ease all 0.55s;
+  transition: ease all 0.55s;
+  border-radius: 8px;
+}
 
-
+.footer-contact-btn {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.footer-contact-btn-icon{
+  font-size: 25px;
+  color: white;
+}
+.btn-email{
+background: #2fbf71 ;
+}
 /* Footer Section Started  */
+
+.footer-btn:hover{
+  background: white;
+  border-color:#0b0b13 ;
+}
+.footer-btn:hover .footer-contact-btn-icon{
+  color: #2fbf71 !important;
+}
 .footer{
-  background: #0b0b13;
-  padding: 50px 0;
+  background: #10101a;
   color: #fff;
   text-align: center;
 }
 .theme-light .footer{
   color : #0b0b13;
+  background: #f7f7ff;
+
+}
+.copyright-text{
+  font-size: 14px;
+  color: #fff;
+  padding: 20px 0px;
+}
+
+
+@media (max-width: 767px) {
+.footer-btn{
+  border:2px solid transparent ;
+  padding: 8px 10px;
+}
+.footer-contact-btn-icon{
+  font-size: 16px;
+}
+.footer-contact-btn {
+  gap:10px;
+}
+.footer-top h2 {
+  font-size: 30px;
+}
+.footer p {
+  width: 70%;
+  margin: auto;
+}
 
 }
 /* Footer Section End  */

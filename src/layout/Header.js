@@ -58,22 +58,22 @@ useEffect(() => {
               </div>
               <h5>Mahdi Hasan</h5>
                 <div className="nav justify-content-center social-icons">
-                  <Link href="https://www.facebook.com/mahdihasanrumel" target="_blank">
+                  <Link href="https://www.facebook.com/mahdihasanrumel" target="_blank" title="Facebook">
                     <FaFacebookF  />
                   </Link>
-                  <Link href="https://www.linkedin.com/in/mahdihasanin/" target="_blank">
+                  <Link href="https://www.linkedin.com/in/mahdihasanin/" target="_blank" title="LinkedIn">
                     <FaLinkedinIn  />
                   </Link>
-                  <Link href="https://www.upwork.com/freelancers/~01d3d28a2fbcafdc7f" target="_blank">
+                  <Link href="https://www.upwork.com/freelancers/~01d3d28a2fbcafdc7f" target="_blank" title="Upwork">
                     <FaUpwork    />
                   </Link>
                   {/* <Link href="skype:mahdihasanmhr@gmail.com?chat">
                     <PiSkypeLogo     />
                   </Link> */}
-                  <Link href="https://t.me/mahdihasanmhr" target="_blank">
+                  <Link href="https://t.me/mahdihasanmhr" target="_blank"   title="Telegram">
                     <PiTelegramLogo     />
                   </Link>
-                  <Link href="http://www.mhrtechnology.com" target="_blank">
+                  <Link href="http://www.mhrtechnology.com" target="_blank" title="Official Website">
                     <TbWorld   />
                   </Link>                    
                 </div>
@@ -85,15 +85,17 @@ useEffect(() => {
         className={isHovered ? 'swapped' : 'primary'}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
+        title="Phone Number"
       >
-        <Link href="tel:+8801635592057">Phone</Link>
+        <Link href="tel:+8801635592057" >Phone</Link>
       </button>
       <button
         className={isHovered ? 'primary' : 'swapped'}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
+        title="Contact Me by Email"
       >
-        <Link href="mailto:mahdihasanmhr@gmail.com">Email</Link>
+        <Link href="mailto:mahdihasanmhr@gmail.com" >Email</Link>
       </button>
     </div>
         </div>

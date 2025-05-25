@@ -1334,7 +1334,7 @@ mark {
 }
 .theme-light .whatsapp:hover {
   background-color: #25D366;
-  border: 1px solid white;
+  border: 1px solid #25D366;
   color: white;
 }
 .whatsapp:hover {
@@ -1352,13 +1352,13 @@ mark {
 .theme-light .skype {
   /* background-color: #00AFF0; */
   background: #00AFF0;
-  border: 1px solid #ffffff;
+  border: 1px solid #00AFF0;
   color: #ffffff;
 }
 .theme-light .skype:hover {
   /* background-color: #00AFF0; */
   background: white;
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   color: #00AFF0;
 }
 .skype:hover {
@@ -1803,7 +1803,6 @@ border: 1px solid rgba(11, 11, 19, 0.05);
   color: #0b0b13;
 }
 .skills-box p {
-  padding-bottom: 10px;
   text-align: justify;
 }
 
@@ -1824,7 +1823,7 @@ border: 1px solid rgba(11, 11, 19, 0.05);
 }
 .skill-lt h6 {
   font-size: 14px;
-  margin: 0 0 10px;
+  margin: 0 0 6px;
   font-weight: 400;
   color: #fff;
 }

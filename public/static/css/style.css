@@ -410,7 +410,16 @@ mark {
   letter-spacing: 2px;
   border: 1px solid transparent;
 }
-
+.header-contact-info button:hover{
+  background: #00AFF0;
+  color: white;
+  border-color: #ffffff;
+}
+.theme-light .header-contact-info button:hover{
+  background: #2fbf71;
+  color: #ffffff;
+  border-color: #2fbf71;
+}
 
 .header-contact-info button a {
   text-decoration: none;
@@ -430,7 +439,8 @@ mark {
   border: 1px solid white;
 }
 .theme-light .header-contact-info .swapped {
-  background: #2fbf71;
+  background: #ffffff;
+  color: #2fbf71;;
 }
 
 #pp-nav {

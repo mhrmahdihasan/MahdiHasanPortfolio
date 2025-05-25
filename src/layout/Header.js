@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { Fragment, useEffect, useState } from "react";
 import { activeSection } from "../utilits";
-import { FaTelegram,FaFacebookF   } from 'react-icons/fa';
+import { FaFacebookF   } from 'react-icons/fa';
 import { FaLinkedinIn,FaUpwork    } from "react-icons/fa6";
 import { TbWorld } from "react-icons/tb";
-import { PiSkypeLogo,PiTelegramLogo  } from "react-icons/pi";
+import { PiTelegramLogo  } from "react-icons/pi";
 import { FiMenu, FiX } from "react-icons/fi";
 // import { RiAccountCircleLine } from "react-icons/ri";
 // import { BsInfoSquare } from "react-icons/bs";
@@ -14,7 +14,6 @@ import { FiMenu, FiX } from "react-icons/fi";
 // import { MdContacts } from "react-icons/md";
 import Image from 'next/image';
 const Header = ({ blog }) => {
-    const [isHovered, setIsHovered] = useState(false);
   const [sideBarToggle, setSideBarToggle] = useState(false);
 useEffect(() => {
   let cleanup;
@@ -67,9 +66,6 @@ useEffect(() => {
                   <Link href="https://www.upwork.com/freelancers/~01d3d28a2fbcafdc7f" target="_blank" title="Upwork">
                     <FaUpwork    />
                   </Link>
-                  {/* <Link href="skype:mahdihasanmhr@gmail.com?chat">
-                    <PiSkypeLogo     />
-                  </Link> */}
                   <Link href="https://t.me/mahdihasanmhr" target="_blank"   title="Telegram">
                     <PiTelegramLogo     />
                   </Link>
@@ -82,17 +78,14 @@ useEffect(() => {
           {blog ? <MenuWithBlog /> : <MenuWithOutBlog />}
     <div className="header-contact-info ">
       <button
-        className={isHovered ? 'swapped' : 'primary'}
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
+        className= "swappe dprimary"
+        
         title="Phone Number"
       >
         <Link href="tel:+8801635592057" >Phone</Link>
       </button>
       <button
-        className={isHovered ? 'primary' : 'swapped'}
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
+        className="primary swapped"
         title="Contact Me by Email"
       >
         <Link href="mailto:mahdihasanmhr@gmail.com" >Email</Link>

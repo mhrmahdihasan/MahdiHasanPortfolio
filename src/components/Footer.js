@@ -6,6 +6,7 @@ import { FaUpwork,FaWhatsapp  } from "react-icons/fa6";
 import { MdOutlinePhone } from "react-icons/md";
 import { PiTelegramLogoLight } from "react-icons/pi";
 import { PiSkypeLogo } from "react-icons/pi";
+import { BsMicrosoftTeams } from "react-icons/bs";
 const Footer = () => {
   return (
     <section  className="footer">
@@ -22,8 +23,8 @@ const Footer = () => {
           <Link href="https://wa.me/+8801635592057" target="_blank" className="footer-btn btn-email" title="Chat on WhatsApp">
               <FaWhatsapp  className="footer-contact-btn-icon "/>
           </Link>
-          <Link href="skype:mahdihasanmhr@gmail.com?chat" target="_blank" className="footer-btn btn-email" title="Open Skype Web">
-              <PiSkypeLogo className="footer-contact-btn-icon "/>
+          <Link href="https://teams.live.com/l/invite/FEAUhwgpNtosrMffQE" target="_blank" className="footer-btn btn-email" title="Chat on Teams">
+              <BsMicrosoftTeams className="footer-contact-btn-icon "/>
           </Link>
           <Link href="https://t.me/mahdihasanmhr" target="_blank" className="footer-btn btn-email" title="Message Me on Telegram">
               <PiTelegramLogoLight className="footer-contact-btn-icon "/>

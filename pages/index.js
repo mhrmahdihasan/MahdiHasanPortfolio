@@ -12,7 +12,7 @@ import { TfiEmail } from "react-icons/tfi";
 import WhatsappButton from "../src/components/WhatsappButton";
 import { FaWhatsapp } from 'react-icons/fa';
 import { SlSocialSkype } from "react-icons/sl";
-
+import { BsMicrosoftTeams } from "react-icons/bs";
 // import SocialShareButtons from "../src/components/SocialShareButtons";
 const IndexParticles = () => {
 
@@ -40,12 +40,8 @@ const IndexParticles = () => {
                     Committed to growing your business through strategic planning and effective online marketing. Passionate about business development, digital strategy, and delivering real results. Driven by creativity, leadership, and a mindset of continuous improvement. Your success is my mission.
                   </p>
                   <div>
-                    {/* <Link href="mailto:mahdihasanmhr@gmail.com" target="_blank" className="hero-section-btn">
-                      <TfiEmail className="hero-section-mail-icon"/>                    
-                      Send Email
-                    </Link> */}
                     <div className="heroBtn pt-3">
-                      <Link href="https://teams.live.com/l/invite/FEAUhwgpNtosrMffQE" title="Open Skype Web" target="_blank" className="btn skype"> <SlSocialSkype className="herobtn-icon"/> Skype Chat </Link>
+                      <Link href="https://teams.live.com/l/invite/FEAUhwgpNtosrMffQE" title="Open Skype Web" target="_blank" className="btn skype"> <BsMicrosoftTeams className="herobtn-icon"/> Chat on Teams </Link>
                       <Link href="https://wa.me/+8801635592057" title="Chat on WhatsApp" className="btn whatsapp" target="_blank" > <FaWhatsapp className="herobtn-icon"/> WhatsApp</Link>
                     </div>
                   </div>

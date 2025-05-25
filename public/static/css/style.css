@@ -1423,6 +1423,14 @@ mark {
     font-size: 16px;
     margin-bottom: 15px;
   }
+ .heroBtn .btn {
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+    .heroBtn {
+    gap: 0.8rem;
+
+    }
 }
 .home-banner-01 .type-box .social-icons a {
   margin: 0 4px;

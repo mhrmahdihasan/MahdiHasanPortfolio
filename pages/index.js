@@ -45,7 +45,7 @@ const IndexParticles = () => {
                       Send Email
                     </Link> */}
                     <div className="heroBtn pt-3">
-                      <Link href="skype:mahdihasanmhr@gmail.com?chat" title="Open Skype Web" target="_blank" className="btn skype"> <SlSocialSkype className="herobtn-icon"/> Skype Chat </Link>
+                      <Link href="https://teams.live.com/l/invite/FEAUhwgpNtosrMffQE" title="Open Skype Web" target="_blank" className="btn skype"> <SlSocialSkype className="herobtn-icon"/> Skype Chat </Link>
                       <Link href="https://wa.me/+8801635592057" title="Chat on WhatsApp" className="btn whatsapp" target="_blank" > <FaWhatsapp className="herobtn-icon"/> WhatsApp</Link>
                     </div>
                   </div>

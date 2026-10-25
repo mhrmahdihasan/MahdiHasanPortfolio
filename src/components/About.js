@@ -177,7 +177,7 @@ const About = () => {
                     <div className="rb-right">
                       <h6>MhR Tech</h6>
                       <p>2018 - Present</p>
-                      <label>Founder & Director || Khulna, Bangladesh</label>
+                      <label>Founder & Director || Dhaka, Bangladesh</label>
                        
 
                       {/* <div className="rb-time">2018 - Present </div> */}
